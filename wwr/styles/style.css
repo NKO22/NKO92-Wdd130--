@@ -3,7 +3,7 @@ h1,h2,h3,h4,h5,h6{
     color:#403418;}
 
     #content{
-        max-width :960px; 
+        max-width :1600px; 
         margin: 0 auto;
         background-color: green
     }
@@ -21,6 +21,11 @@ h1,h2,h3,h4,h5,h6{
 
 .card-img{width:800px;}  
 .icon{
+    width: 80px;
+}
+.logo {
+    width: 80px;}
+.inst{
     width: 80px;
 }
 
@@ -62,13 +67,30 @@ footer a:hover    {
 
 
 
-nav a
-.book, .join
-footer a {
+nav a{
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
 }   
+
+.book{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}   
+
+ .join
+footer a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+footer p a{
+   
+    color: #fcfbfb;
+    text-decoration: none;
+   
+} 
 
 footer p {
     font-size: 1.2em;
