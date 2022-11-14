@@ -53,7 +53,7 @@ nav a {
     padding-top: 10px;
 }
 
-.card-img {
+.card-img,.hero-img {
     border: 10px solid #d9c2a3;
 }
 main section img {
@@ -123,9 +123,10 @@ h1,h2,h3,h4,h5,h6{
 #hero-msg h1{
     text-align: center
 }
-
-.card-img{
-    width: 800px;
+h1{
+    text-align: center}
+.card-img, .hero-img{
+    width: 200px;
 }  
 .icon{
     width: 80px;
@@ -247,11 +248,12 @@ nav {
     z-index: -1;
 }
 
-.card-img, .mountains {
-    width: 100%;
+.card-img, .mountains, .hero-img, .rapids-card {
+    width: 40%;
 }
-         
-.rivers-card  {
+
+      
+.mountains  {
     grid-column-start: 2;
     grid-column-end: 4 ;
     grid-row-start: 2;
@@ -288,6 +290,12 @@ nav {
     grid-row-end: 7;
 
 }
+.card-img{grid-column-start: 2;
+    grid-column-end: 4 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
 footer {
     background-color: #6f7364;
     padding: 25px 50px;
@@ -297,12 +305,13 @@ footer {
     align-items: center;
 }
 
-.card-img {
+.card-img, .hero-img {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    
 }
-.card-img:hover {
+.card-img:hover, .hero-img {
     opacity: .6;
     transform: scale(1.1);
 }
